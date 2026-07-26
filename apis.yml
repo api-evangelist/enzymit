@@ -1,7 +1,25 @@
 aid: enzymit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/enzymit.png
 name: Enzymit
-description: Enzymit is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Enzymit is a synthetic biology company based in Rehovot, Israel that designs
+  novel enzymes and enables cell-free biomanufacturing. Its proprietary platform combines
+  computational protein design, deep learning, and high-throughput testing to develop
+  enzymes for biochemicals, food and beverage, personal care, and health and nutrition
+  markets, with applications spanning hyaluronic acid production, cultivated-meat ingredients,
+  and biosensors. Backed by Khosla Ventures, Enzymit publishes open research tools
+  such as SolvIT (protein solubility prediction) and the StabilizeIT platform, but does
+  not currently expose a public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/enzymit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Synthetic Biology
+- Enzyme Design
+- Biomanufacturing
+- Protein Engineering
+- Deep Learning
+- Biotechnology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.enzymit.com/
+- type: Blog
+  url: https://www.enzymit.com/blog
+- type: Support
+  url: https://www.enzymit.com/contact-us
+- type: GitHubOrganization
+  url: https://github.com/Enzymit
+- type: DomainSecurity
+  url: security/enzymit-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
